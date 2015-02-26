@@ -1,0 +1,35 @@
+button {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+#Layer_1{
+  margin:0 auto;
+  width:100%;
+  transform: translate(-50%, -50%);
+  display: block;
+position: relative;
+left: 50%;
+top: 50%;
+}
+
+#myobj{
+  margin:0 auto;
+  width:100%;
+  text-align:center;
+  height: 793px;
+}
+
+@-webkit-keyframes fade-in {
+0% { opacity: 0;}
+100% {opacity: .8;}
+}
+
+.frame_fill {
+    opacity:0;
+    -webkit-animation: fade-in .5s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 2s;
+}
